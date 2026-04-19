@@ -1,0 +1,32 @@
+/* Minden input, select, textarea placeholder */
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+  color: #9ca3af;
+  opacity: 1;
+}
+
+/* Bootstrap form-control placeholder */
+.form-control::placeholder {
+  color: #9ca3af;
+  opacity: 1;
+}
+
+/* Select alapértelmezett (-- Válassz --) szöveg */
+select option[value=""] {
+  color: #9ca3af;
+}
+
+/* Másodlagos / muted szövegek (pl. kártya alcímek, perc értékek) */
+.text-muted,
+.text-secondary,
+[class*="text-gray-4"],
+[class*="text-gray-5"],
+[class*="text-gray-6"] {
+  color: #9ca3af !important;
+}
+
+/* Bootstrap muted szöveg felülírása */
+.text-muted {
+  color: #9ca3af !important;
+}
